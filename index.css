@@ -161,7 +161,6 @@ nav span{
 .explanation{
     display: flex;
     flex-direction: column;
-    /* border: 5px black solid; */
     width: 25vw;
     text-align: center;
 }
@@ -170,7 +169,7 @@ nav span{
     height: auto;
     position: relative;
     left: 20vw;
-    /* top: 5vw; */
+
 }
 
 .explanation h2{
