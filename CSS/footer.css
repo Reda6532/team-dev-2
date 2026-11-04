@@ -1,0 +1,60 @@
+.footer {
+  background-color : #87ACD9CC;
+  padding : 50px 20px 45px;
+  text-align : center;
+  color : #000000;
+  width : 100%;
+}
+
+.footer-title {
+  font-family : 'Myriad Pro', sans-serif;
+  font-size : 2rem;
+  font-weight : 800;
+  margin-bottom : 30px;
+}
+
+.footer-logos {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 40px;
+  margin-bottom : 30px;
+}
+
+.logos {
+  max-width : 340px;
+  height : auto;
+  object-fit : contain;
+}
+
+.contact-title {
+  font-family : 'Myriad Pro', sans-serif;
+  font-size : 1.8rem;
+  font-weight : 800;
+  margin-bottom : 8px;
+}
+
+.contact-subtitle {
+  font-family : 'Myriad Pro', sans-serif;
+  font-size : 0.95rem;
+  color : #000000;
+  margin-bottom : 25px;
+}
+
+.contact-email {
+  color : #000000;
+  font-weight : 600;
+}
+
+.social-links {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  gap : 30px;
+}
+
+.social-icon {
+  color : #D9F8FF;
+  font-size : 1.8rem;
+  text-decoration : none;
+}
