@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing : border-box;
+  margin : 0;
+  padding : 0;
+}
+
+html, body {
+  width : 100%;
+  min-height : 100vh;
+  margin : 0;
+  padding : 0;
+}
+
+@font-face {
+  font-family : 'Myriad Pro';
+  src : local('Myriad Pro'), local('MyriadPro-Regular');
+  font-weight : 400;
+}
+
+@font-face {
+  font-family : 'Myriad Pro';
+  src : local('Myriad Pro Bold'), local('MyriadPro-Bold');
+  font-weight : 700;
+}
+
+@font-face {
+  font-family : 'Bauhaus 93';
+  src : local('Bauhaus 93');
+  font-weight : 400;
+}
