@@ -16,8 +16,8 @@ nav{
     z-index:    999; 
     margin-bottom: 200px;
 }
-nav a.active {
-    color: #87ACD9;
+nav ul li a.active {
+    color: orange !important;
     font-weight: bold;
 }
 nav ul{
