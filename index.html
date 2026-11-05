@@ -1,43 +1,193 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-    <title> Freelance Arena </title>
-    <link rel = "stylesheet" href = "CSS/base.css">
-    <link rel = "stylesheet" href = "CSS/cta.css">
-    <link rel = "stylesheet" href = "CSS/footer.css">
-    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Freelance Arena</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="CSS/cta.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
-<section class = "cta-container">
-  <div class = "cta-card">
-    <h2 class = "cta-title"> Ready to join The Freelance Arena event ? </h2>
-    <p class = "cta-subtitle"> Your first real freelance experience starts here. </p>
-    <a href = "#" class = "cta-btn"> Register now </a>
-    <div class = "cta-icon-badge">
-      <img src = "assets/magnifier.svg" alt = "magnifier" class = "magnifier" />
-    </div>
-  </div>
-</section>
+<body>
 
-<footer class = "footer">
-  <h2 class = "footer-title"> For More Questions About </h2>
-  <div class = "footer-logos">
-    <div class = "logos">
-      <img src = "assets/logo_+_cse.svg" alt = "logos" class = "logos" />
-    </div>
-  </div>
-  <div class = "contact-section">
-    <h3 class = "contact-title"> Contact Us </h3>
-    <p class = "contact-subtitle"> By email <a href = "mailto:cse@esi.dz" class = "contact-email"> cse@esi.dz </a> or any social media </p>
-    <div class = "social-links">
-      <a href = "https://web.facebook.com/club.scientifique.esi/?_rdc=1&_rdr#" target = "_blank" rel = "noopener noreferrer" class = "social-icon" aria-label = "Facebook"> <i class = "fa-brands fa-square-facebook"> </i> </a>
-      <a href = "https://www.instagram.com/cse.club/" target = "_blank" rel = "noopener noreferrer" class = "social-icon" aria-label = "Instagram"> <i class = "fa-brands fa-instagram"> </i> </a>
-      <a href = "https://www.linkedin.com/company/cse-club/?trk=public_profile_experience-item_profile-section-card_subtitle-click&originalSubdomain=fr" target = "_blank" rel = "noopener noreferrer" class = "social-icon" aria-label = "LinkedIn"> <i class = "fa-brands fa-linkedin-in"> </i> </a>
-      <a href = "https://www.youtube.com/user/ClubScientifiqueESI" target = "_blank" rel = "noopener noreferrer" class = "social-icon" aria-label = "YouTube"> <i class = "fa-brands fa-youtube"> </i> </a>
-      <a href = "https://x.com/CSESI_Club" target = "_blank" rel = "noopener noreferrer" class = "social-icon" aria-label = "Twitter / X"> <i class = "fa-brands fa-twitter"> </i> </a>
-    </div>
-  </div>
-</footer>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <img src="logo.svg" alt="Logo">
+
+            <ul>
+                <li><a href="#"><span>Home</span></a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <a href="#" id="Register">Register</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="section1">
+
+            <div class="title">
+                <h1>Arena Freelance</h1>
+                <h2>Turn Skills into Opportunities</h2>
+
+                <p>
+                    Join student teams to solve real corporate challenges,
+                    build your professional portfolio, and pitch your skills
+                    to an expert jury of real clients.
+                </p>
+            </div>
+
+            <div class="info">
+
+                <div class="location">
+                    <img src="location.svg" alt="">
+                    <p>ESI ALGIERS - OULD SMAR</p>
+                </div>
+
+                <div class="open-day">
+                    <img src="time.svg" alt="">
+                    <p>31 January 2027</p>
+                </div>
+
+            </div>
+
+            <div class="reg">
+                <img src="image1.svg" alt="" class="image1">
+                <button>Register Now</button>
+                <img src="image2.svg" alt="" class="image2">
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about">
+
+            <h1>ABOUT THE EVENT</h1>
+
+            <div id="about">
+
+                <div class="explanation">
+
+                    <h2>Experience the freelance world for real</h2>
+
+                    <p>
+                        Teams of 3-4 students tackle real company challenges,
+                        develop freelancing skills through workshops, and
+                        pitch their work to a jury. Winners are selected in
+                        each domain, with recruitment opportunities for
+                        outstanding participants.
+                    </p>
+
+                    <img src="bird.svg" alt="">
+
+                </div>
+
+                <img src="department.svg" alt="" class="department">
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA SECTION -->
+        <section class="cta-container">
+
+            <div class="cta-card">
+
+                <h2 class="cta-title">
+                    Ready to join The Freelance Arena event?
+                </h2>
+
+                <p class="cta-subtitle">
+                    Your first real freelance experience starts here.
+                </p>
+
+                <a href="#" class="cta-btn">Register now</a>
+
+                <div class="cta-icon-badge">
+                    <img src="assets/magnifier.svg" alt="Magnifier" class="magnifier" />
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <h2 class="footer-title">For More Questions About</h2>
+
+        <div class="footer-logos">
+
+            <div class="logos">
+                <img src="assets/logo_+_cse.svg" alt="CSE Logo" class="logos" />
+            </div>
+
+        </div>
+
+        <div class="contact-section">
+
+            <h3 class="contact-title">Contact Us</h3>
+
+            <p class="contact-subtitle">
+                By email
+                <a href="mailto:cse@esi.dz" class="contact-email">
+                    cse@esi.dz
+                </a>
+                or any social media
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://web.facebook.com/club.scientifique.esi/?_rdc=1&_rdr#" target="_blank"
+                    rel="noopener noreferrer" class="social-icon" aria-label="Facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/cse.club/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/company/cse-club/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://www.youtube.com/user/ClubScientifiqueESI" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="https://x.com/CSESI_Club" target="_blank" rel="noopener noreferrer" class="social-icon"
+                    aria-label="Twitter / X">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
