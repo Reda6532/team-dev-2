@@ -16,6 +16,10 @@ nav{
     z-index:    999; 
     margin-bottom: 200px;
 }
+nav a.active {
+    color: #87ACD9;
+    font-weight: bold;
+}
 nav ul{
     display: flex;
     gap:100px;
@@ -46,10 +50,6 @@ nav img{
     font-size: 25px;
     
 }
-nav span{
-    color: #87ACD9;
-}
-
 
 /* section 1  */
 
