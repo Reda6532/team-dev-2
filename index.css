@@ -54,7 +54,7 @@ nav span{
 /* section 1  */
 
 
-.section1 {
+#section1 {
     width: 100%;
     min-height: 100vh;
     padding-top: 120px;
@@ -67,20 +67,20 @@ nav span{
 .title{
     margin: 100px;
 }
-.section1 h1{
+#section1 h1{
     font-size: 100px;
     color: #87ACD9;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     margin-block: 50px;
 }
-.section1 h2{
+#section1 h2{
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     margin-bottom: 50px;
 }
-.section1 p{
+#section1 p{
     font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -138,7 +138,7 @@ nav span{
 /* about section  */
 
 
-.about{
+#about{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,13 +146,13 @@ nav span{
     
 }
 
-#about{
+#aboutt{
     display: flex;
     justify-content: space-between;
     gap: 5vw;
     margin-bottom: 8vw;
 }
-.about h1{
+#about h1{
     font-size: 70px;
     font-family: 'Inter', sans-serif;
     color: #87ACD9;
